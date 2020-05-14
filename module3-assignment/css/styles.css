@@ -6,7 +6,7 @@ background-color: #c7f1ec;
 font-family: 'Merriweather', serif;
 }
 
-	/*Header*/
+/*Header*/
 #header-nav {
     background-color:#0f2929;
     border-radius: 0;
@@ -56,11 +56,6 @@ button.navbar-toggle{
 margin: 22px 15px 3px 0px;
 }
 
-.navbar-default .navbar-collapse{
-	border:none;
-	/*overflow-x: visible;*/
-
-}
 h2 {
 color:black; 
 font-family: "Comic Sans MS", 'Times New Roman', Times, serif;
@@ -96,9 +91,7 @@ a:hover{
 	font-size: 2em;
 	color: white;
 }
-#main-content{
-	margin-top:30px;
-}
+
 .internal-link{
 	margin-top: 10px;
 	text-transform: uppercase;
@@ -142,12 +135,14 @@ a:hover{
     }
 	.navbar-default .navbar-collapse{
 		border: none;
-		background-color: #99C5B5;
+		background-color: #fce0e0;
+		margin-top:10px;
 	}
 	 a:hover{
 	 	color: white;
 	}
+	#main-content{
+		transform: translate(0px, 150px);
+	}
 } /*end media query*/
-
-
 
