@@ -1,0 +1,152 @@
+body{
+font-size: 16px;
+font-weight:900;
+color: #e3f1f1;
+background-color: #c7f1ec;
+font-family: 'Merriweather', serif;
+}
+
+	/*Header*/
+#header-nav {
+    background-color:#0f2929;
+    border-radius: 0;
+    border: 0;
+    height:90px;
+}
+h1{ 
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    margin-top:20px;
+    font-weight: 500;
+	text-shadow: 2PX 2px 2px #afebe3;
+}       
+h1 a{
+	color:white;
+}     
+.glyphicon{
+    margin-right:7px;
+    size:0.9em;
+    color:black;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+#nav-list {
+    margin-top:-20px;
+    padding:-10px;
+    margin:12px -15px; 
+    border:none;
+}
+#nav-list a {
+    background:#fce0e0;
+    text-align:center;
+    color: black;
+}
+#nav-list a:hover {
+    background:#faa1a1;
+    text-align:center;
+	opacity:.8;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 2px solid #c7f1ec;
+	background: #ffffff;
+}
+button.navbar-toggle{
+margin: 22px 15px 3px 0px;
+}
+
+.navbar-default .navbar-collapse{
+	border:none;
+	/*overflow-x: visible;*/
+
+}
+h2 {
+color:black; 
+font-family: "Comic Sans MS", 'Times New Roman', Times, serif;
+font-weight:bold;
+margin-bottom:10px;
+margin-top:5px;	
+
+}
+p {
+    border:1px black;
+    color:black;
+	font-weight:300;
+	line-height: 1.6;
+	font-size:16px;
+}
+a{
+	color:black;
+}
+a:hover{
+	color: white;
+	text-decoration:none;
+}
+.section-background-color{
+	background-color: #3aafa9;
+} 
+#chicken, #beef{
+	margin-right: 10px;
+}
+#chicken ,#beef ,#sushi{
+	margin-top:20px;
+}
+#company-name{
+	font-size: 2em;
+	color: white;
+}
+#main-content{
+	margin-top:30px;
+}
+.internal-link{
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+/*Media query*/
+
+/*Desktop view*/
+@media (min-width: 992px) {
+	.col-md-4{
+		width: 32.33%;
+	}
+}
+
+/*Tablet view*/
+@media (min-width: 768px) and (max-width: 991px) {
+	#chicken{
+		margin-right: 4%;
+	}
+	#beef{
+		margin-right: 0px;
+	}
+
+	#sushi{
+		margin-top: 20px;
+	}
+	.col-sm-6{
+		width: 48%;
+    }
+    .col-sm-12{
+		width: 100%;
+	}
+	 a:hover{
+	 	color: white;
+	}
+}
+
+/*Mobile View*/
+@media (max-width: 767px) {
+    .col-xs-12{
+		width: 100%;
+    }
+	.navbar-default .navbar-collapse{
+		border: none;
+		background-color: #99C5B5;
+	}
+	 a:hover{
+	 	color: white;
+	}
+} /*end media query*/
+
+
